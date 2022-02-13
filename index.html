@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>jackdesmond.me</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
-
   <body>
-    Jack's Website
-    <nav>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Resume</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
-    
-    <div>
-    </div>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="/images/logo.png" alt="logo">
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <ul class="nav-links">
+          <li><a class="about" href="#About">About</a></li>
+          <li><a class="resuume" href="#Resume">Resume</a></li>
+          <li><a class="contact" href="#Contact">Contact</a></li>
+        </ul>
+        <ul class = "socials">
+          <li><a href="https://www.linkedin.com/in/jack-desmond-052301"><img src="images/linkedin.png"></img></a></li>
+          <li><a href="https://github.com/jcdesmond23"><img src="images/github.png"></img></a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="Home">
+      <div class="home-screen">
+        <div>
+          <img class="home-image" src="images/IMG_2246 3.jpg" alt="Jack Desmond">
+        </div>
+        <div>
+          <h1 class="home-header">Hi, I'm Jack and I'm a computer science student at Dartmouth</h1>
+          <p class="home-description">I'm from Boston, Massachusetts and in my second year at Dartmouth College studying computer science. When I'm not in the classroom, I'm hanging out with friends in Collis, watching a Christopher Nolan movie, or playing rugby.</p>
+          <div class="buttons">
+            <a class="button-1" href="#Contact">Contact Me</a>
+            <a class="button-2" href="#Resume">My Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <div class="about-section">
+        <div class="bio">
+          <p class="bio-text">I was raised in Wellesley, Massachusetts and attended The Rivers School for high school. I have a younger sister who is a Dartmouth '25 as well as a younger brother. Growing up, I was a huge Boston sports fan. I took every chance I could get to rock my Red Sox hats and Celtics jersey. My early years also injected a passion for travel in me. Today, airports are my favorite places to be and unlike most of the population I can't wait until the next time I travel by air. Now, I'm set to graduate from Dartmouth in 2024. Some of my innvolvements on campus include the Dartmouth sports analytics club and the Dartmouth Rugby Football Club. Programming languages that I'm experience in and comfortable with</p>
+        </div>
+        <div class="about-images">
+            <img id="baseball" src="images/IMG_5332 3.jpg">
+            <img id="river" src="images/IMG_7528 2.JPG">
+        </div>
+      </div>
+    </section>
+    <section id="Resume">
+      <div>
+        <iframe src="/files/Resume 2022-2.pdf" frameborder="0"></iframe>
+      </div>
+    </section>
+    <section id="Contact">
+      <div class="contact-page">
+        <h1 class="contact-header">Contact Me</h1>
+        <p class="contact-email">Get in touch with me: jackson.c.desmond.24@dartmouth.edu</p>
+      </div>
+    </section>
   </body>
 </html>
