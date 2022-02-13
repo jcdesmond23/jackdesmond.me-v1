@@ -292,4 +292,12 @@ iframe {
     #river, #baseball {
         display: none;
     }
+
+    .bio {
+        display: flex;
+        width: 50% ;
+        height: 500px;
+        align-items: center;
+        margin-bottom: 200px;
+    }
 }
