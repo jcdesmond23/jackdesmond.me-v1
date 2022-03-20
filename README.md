@@ -2,7 +2,7 @@
 
 Purpose:
 
-This website was built to act as my first code sample for my DALI application and was prompted by the Basic Webpage Challenge.
+Serves a personal website hosting my resume and an about me section.
 
 About the Website:
 
