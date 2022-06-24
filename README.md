@@ -1,4 +1,4 @@
-# jackdesmond.me
+# jackdesmond.me (out of date - see jackdesmond.dev
 
 Purpose:
 
